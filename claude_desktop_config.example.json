@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "arxiv-mcp-server": {
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@langgpt/arxiv-mcp-server@latest"],
+      "env": {
+        "SILICONFLOW_API_KEY": "replace_with_your_siliconflow_key",
+        "WORK_DIR": "C:\\Users\\YOUR_NAME\\Documents\\ClaudePapers"
+      }
+    }
+  }
+}

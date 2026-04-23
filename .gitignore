@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+DATA_DIR/
+ClaudePapers/
+papers/
+outputs/
+downloads/
+
+*.pdf
+*_text.txt
+*_md_zh.md
+*_wechat.md
+*.log
