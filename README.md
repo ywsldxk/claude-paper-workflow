@@ -332,32 +332,7 @@ claude mcp add --transport http papersflow https://doxa.papersflow.ai/mcp
 - 公开仓库里只放示例值，不放真实 API Key。
 - `WORK_DIR` 最好单独建目录，避免误删和误传。
 
-## 八、GitHub 发布建议
-
-这个仓库建议保持轻量：
-
-```text
-.
-├── README.md
-├── claude_desktop_config.example.json
-├── .env.example
-├── LICENSE
-└── .gitignore
-```
-
-发布前检查：
-
-```powershell
-git status --short
-git add README.md claude_desktop_config.example.json .env.example LICENSE .gitignore
-git commit -m "docs: add claude desktop paper workflow"
-git remote add origin https://github.com/YOUR_NAME/YOUR_REPO.git
-git push -u origin main
-```
-
-如果你已经有 GitHub 空仓库，把最后两行里的地址换成你的仓库地址即可。
-
-## 仓库结构
+## 八、仓库结构
 
 ```text
 .
