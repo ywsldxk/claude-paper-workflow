@@ -1,4 +1,8 @@
-# Claude Desktop 论文工作流：arXiv MCP + PapersFlow MCP
+# Claude Paper Workflow
+
+> 中文名：Claude Desktop 论文工作流
+>
+> 一个面向 Claude Desktop 的论文研究工作流，整合 arXiv MCP 和 PapersFlow MCP，用于论文搜索、PDF 下载、中文精读、引用核验与文献综述生成。
 
 面向中文科研阅读、文献综述、引用核验和论文追踪的 Claude Desktop 工作流。核心思路是把两个 MCP 工具分工使用：
 
